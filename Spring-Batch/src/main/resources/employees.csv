@@ -1,0 +1,5 @@
+empId,name,dept,salary,Location,Gender,DOB,Email,Phone
+1,vetri,1,30000,madurai,male,1.4.99,abc@gmail.com,9638527410
+2,naveen,2,40000,madurai,male,2.5.99,def@gmail.com,9876543210
+3,Robin,3,35000,madurai,male,2.6.99,ghi@gmail.com,6549873210
+4,priya,1,56000,madurai,female,2.8.98,jkl@gmail.com,8529637410
