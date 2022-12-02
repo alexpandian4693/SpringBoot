@@ -1,0 +1,170 @@
+2022-12-02T12:46:22.054+05:30  INFO 18616 --- [main] c.junit.apitest.ApitestApplicationTests  : Starting ApitestApplicationTests using Java 17.0.4.1 with PID 18616 (started by pandi in C:\Users\pandi\Downloads\apitest\apitest)
+2022-12-02T12:46:22.056+05:30  INFO 18616 --- [main] c.junit.apitest.ApitestApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-12-02T12:46:22.743+05:30  INFO 18616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02T12:46:22.822+05:30  INFO 18616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interfaces.
+2022-12-02T12:46:23.249+05:30  INFO 18616 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02T12:46:23.326+05:30  INFO 18616 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-02T12:46:23.519+05:30  WARN 18616 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-02T12:46:23.784+05:30  INFO 18616 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02T12:46:23.796+05:30  WARN 18616 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-12-02T12:46:24.326+05:30  INFO 18616 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77b71c9
+2022-12-02T12:46:24.329+05:30  INFO 18616 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02T12:46:24.433+05:30  INFO 18616 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-02T12:46:25.547+05:30  INFO 18616 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02T12:46:25.556+05:30  INFO 18616 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02T12:46:25.763+05:30  WARN 18616 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02T12:46:26.373+05:30  INFO 18616 --- [main] c.junit.apitest.ApitestApplicationTests  : Started ApitestApplicationTests in 4.716 seconds (process running for 6.411)
+2022-12-02T12:46:26.863+05:30  INFO 18616 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02T12:46:26.875+05:30  INFO 18616 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02T12:46:26.926+05:30  INFO 18616 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-02T18:23:02.619+05:30  INFO 12020 --- [main] c.junit.apitest.ApitestApplicationTests  : Starting ApitestApplicationTests using Java 17.0.4.1 with PID 12020 (started by pandi in C:\Users\pandi\Downloads\apitest\apitest)
+2022-12-02T18:23:02.626+05:30  INFO 12020 --- [main] c.junit.apitest.ApitestApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-12-02T18:23:03.691+05:30  INFO 12020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02T18:23:03.746+05:30  INFO 12020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2022-12-02T18:23:04.363+05:30  INFO 12020 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02T18:23:04.500+05:30  INFO 12020 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-02T18:23:04.780+05:30  WARN 12020 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-02T18:23:05.052+05:30  INFO 12020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02T18:23:05.067+05:30  WARN 12020 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-12-02T18:23:05.968+05:30  INFO 12020 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b4bd341
+2022-12-02T18:23:05.972+05:30  INFO 12020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02T18:23:06.089+05:30  INFO 12020 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-02T18:23:07.334+05:30  INFO 12020 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02T18:23:07.379+05:30  INFO 12020 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02T18:23:07.611+05:30  WARN 12020 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02T18:23:08.393+05:30  INFO 12020 --- [main] c.junit.apitest.ApitestApplicationTests  : Started ApitestApplicationTests in 6.395 seconds (process running for 8.766)
+2022-12-02T18:23:09.040+05:30  INFO 12020 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02T18:23:09.043+05:30  INFO 12020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02T18:23:09.066+05:30  INFO 12020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-02T18:25:22.173+05:30  INFO 22800 --- [main] c.junit.apitest.ApitestApplicationTests  : Starting ApitestApplicationTests using Java 17.0.4.1 with PID 22800 (started by pandi in C:\Users\pandi\Downloads\apitest\apitest)
+2022-12-02T18:25:22.179+05:30  INFO 22800 --- [main] c.junit.apitest.ApitestApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-12-02T18:25:23.307+05:30  INFO 22800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02T18:25:23.383+05:30  INFO 22800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+2022-12-02T18:25:23.880+05:30  INFO 22800 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02T18:25:23.947+05:30  INFO 22800 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-02T18:25:24.165+05:30  WARN 22800 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-02T18:25:24.413+05:30  INFO 22800 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02T18:25:24.420+05:30  WARN 22800 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-12-02T18:25:24.967+05:30  INFO 22800 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5238896f
+2022-12-02T18:25:24.972+05:30  INFO 22800 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02T18:25:25.095+05:30  INFO 22800 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-02T18:25:26.320+05:30  INFO 22800 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02T18:25:26.334+05:30  INFO 22800 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02T18:25:26.782+05:30  WARN 22800 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02T18:25:27.820+05:30  INFO 22800 --- [main] c.junit.apitest.ApitestApplicationTests  : Started ApitestApplicationTests in 6.296 seconds (process running for 8.544)
+2022-12-02T18:25:28.120+05:30  INFO 22800 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02T18:25:28.124+05:30  INFO 22800 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02T18:25:28.152+05:30  INFO 22800 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-02T18:25:51.339+05:30  INFO 11128 --- [restartedMain] com.junit.apitest.ApitestApplication     : Starting ApitestApplication using Java 17.0.4.1 with PID 11128 (C:\Users\pandi\Downloads\apitest\apitest\target\classes started by pandi in C:\Users\pandi\Downloads\apitest\apitest)
+2022-12-02T18:25:51.343+05:30  INFO 11128 --- [restartedMain] com.junit.apitest.ApitestApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-12-02T18:25:51.425+05:30  INFO 11128 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-02T18:25:51.425+05:30  INFO 11128 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-02T18:25:52.193+05:30  INFO 11128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02T18:25:52.263+05:30  INFO 11128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2022-12-02T18:25:53.064+05:30  INFO 11128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-02T18:25:53.079+05:30  INFO 11128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-02T18:25:53.080+05:30  INFO 11128 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-02T18:25:53.163+05:30  INFO 11128 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-02T18:25:53.164+05:30  INFO 11128 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1737 ms
+2022-12-02T18:25:53.336+05:30  INFO 11128 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02T18:25:53.404+05:30  INFO 11128 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-02T18:25:53.591+05:30  WARN 11128 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-02T18:25:53.736+05:30  INFO 11128 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02T18:25:53.741+05:30  WARN 11128 --- [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-12-02T18:25:54.174+05:30  INFO 11128 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6148d787
+2022-12-02T18:25:54.177+05:30  INFO 11128 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02T18:25:54.251+05:30  INFO 11128 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-02T18:25:55.116+05:30  INFO 11128 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02T18:25:55.126+05:30  INFO 11128 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02T18:25:55.175+05:30  WARN 11128 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02T18:25:55.718+05:30  INFO 11128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-02T18:25:55.773+05:30  INFO 11128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-02T18:25:55.790+05:30  INFO 11128 --- [restartedMain] com.junit.apitest.ApitestApplication     : Started ApitestApplication in 5.156 seconds (process running for 6.463)
+2022-12-02T18:26:53.598+05:30  INFO 11128 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-02T18:26:53.645+05:30  INFO 11128 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-02T18:26:53.805+05:30  INFO 11128 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 158 ms
+2022-12-02T18:41:25.907+05:30  INFO 20936 --- [main] c.junit.apitest.ApitestApplicationTests  : Starting ApitestApplicationTests using Java 17.0.4.1 with PID 20936 (started by pandi in C:\Users\pandi\Downloads\apitest\apitest)
+2022-12-02T18:41:25.912+05:30  INFO 20936 --- [main] c.junit.apitest.ApitestApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-12-02T18:41:26.828+05:30  INFO 20936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02T18:41:26.900+05:30  INFO 20936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2022-12-02T18:41:27.491+05:30  INFO 20936 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02T18:41:27.583+05:30  INFO 20936 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-02T18:41:27.764+05:30  WARN 20936 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-02T18:41:27.971+05:30  INFO 20936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02T18:41:27.978+05:30  WARN 20936 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-12-02T18:41:28.494+05:30  INFO 20936 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@774f2992
+2022-12-02T18:41:28.502+05:30  INFO 20936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02T18:41:28.728+05:30  INFO 20936 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-02T18:41:29.732+05:30  INFO 20936 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02T18:41:29.745+05:30  INFO 20936 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02T18:41:29.923+05:30  WARN 20936 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02T18:41:30.707+05:30  INFO 20936 --- [main] c.junit.apitest.ApitestApplicationTests  : Started ApitestApplicationTests in 5.286 seconds (process running for 6.686)
+2022-12-02T18:41:31.078+05:30  INFO 20936 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02T18:41:31.084+05:30  INFO 20936 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02T18:41:31.104+05:30  INFO 20936 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-02T18:41:59.092+05:30  INFO 19816 --- [main] c.junit.apitest.ApitestApplicationTests  : Starting ApitestApplicationTests using Java 17.0.4.1 with PID 19816 (started by pandi in C:\Users\pandi\Downloads\apitest\apitest)
+2022-12-02T18:41:59.097+05:30  INFO 19816 --- [main] c.junit.apitest.ApitestApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-12-02T18:42:00.173+05:30  INFO 19816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02T18:42:00.251+05:30  INFO 19816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2022-12-02T18:42:00.930+05:30  INFO 19816 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02T18:42:01.068+05:30  INFO 19816 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-02T18:42:01.281+05:30  WARN 19816 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-02T18:42:01.499+05:30  INFO 19816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02T18:42:01.505+05:30  WARN 19816 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-12-02T18:42:02.031+05:30  INFO 19816 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29c1249a
+2022-12-02T18:42:02.036+05:30  INFO 19816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02T18:42:02.130+05:30  INFO 19816 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-02T18:42:03.404+05:30  INFO 19816 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02T18:42:03.416+05:30  INFO 19816 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02T18:42:03.641+05:30  WARN 19816 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02T18:42:04.525+05:30  INFO 19816 --- [main] c.junit.apitest.ApitestApplicationTests  : Started ApitestApplicationTests in 5.938 seconds (process running for 7.403)
+2022-12-02T18:42:04.944+05:30  INFO 19816 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02T18:42:04.955+05:30  INFO 19816 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02T18:42:04.972+05:30  INFO 19816 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-02T18:42:19.970+05:30  INFO 21456 --- [restartedMain] com.junit.apitest.ApitestApplication     : Starting ApitestApplication using Java 17.0.4.1 with PID 21456 (C:\Users\pandi\Downloads\apitest\apitest\target\classes started by pandi in C:\Users\pandi\Downloads\apitest\apitest)
+2022-12-02T18:42:19.987+05:30  INFO 21456 --- [restartedMain] com.junit.apitest.ApitestApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-12-02T18:42:20.124+05:30  INFO 21456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-02T18:42:20.125+05:30  INFO 21456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-02T18:42:20.929+05:30  INFO 21456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02T18:42:21.006+05:30  INFO 21456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2022-12-02T18:42:21.827+05:30  INFO 21456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-02T18:42:21.848+05:30  INFO 21456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-02T18:42:21.852+05:30  INFO 21456 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-02T18:42:22.038+05:30  INFO 21456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-02T18:42:22.044+05:30  INFO 21456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1917 ms
+2022-12-02T18:42:22.417+05:30  INFO 21456 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02T18:42:22.486+05:30  INFO 21456 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-02T18:42:22.705+05:30  WARN 21456 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-02T18:42:22.854+05:30  INFO 21456 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02T18:42:22.862+05:30  WARN 21456 --- [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-12-02T18:42:23.250+05:30  INFO 21456 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5843c77c
+2022-12-02T18:42:23.260+05:30  INFO 21456 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02T18:42:23.345+05:30  INFO 21456 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-02T18:42:24.981+05:30  INFO 21456 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02T18:42:24.994+05:30  INFO 21456 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02T18:42:25.061+05:30  WARN 21456 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02T18:42:25.733+05:30  INFO 21456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-02T18:42:25.805+05:30  INFO 21456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-02T18:42:25.820+05:30  INFO 21456 --- [restartedMain] com.junit.apitest.ApitestApplication     : Started ApitestApplication in 6.505 seconds (process running for 7.371)
+2022-12-02T18:42:34.794+05:30  INFO 21456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-02T18:42:34.794+05:30  INFO 21456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-02T18:42:34.796+05:30  INFO 21456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-02T19:11:35.019+05:30  INFO 19892 --- [main] c.junit.apitest.ApitestApplicationTests  : Starting ApitestApplicationTests using Java 17.0.4.1 with PID 19892 (started by pandi in C:\Users\pandi\Downloads\apitest\apitest)
+2022-12-02T19:11:35.023+05:30  INFO 19892 --- [main] c.junit.apitest.ApitestApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-12-02T19:11:35.795+05:30  INFO 19892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02T19:11:35.863+05:30  INFO 19892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2022-12-02T19:11:36.378+05:30  INFO 19892 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02T19:11:36.504+05:30  INFO 19892 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-02T19:11:36.781+05:30  WARN 19892 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-02T19:11:37.274+05:30  INFO 19892 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02T19:11:37.283+05:30  WARN 19892 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-12-02T19:11:37.821+05:30  INFO 19892 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50ff7063
+2022-12-02T19:11:37.825+05:30  INFO 19892 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02T19:11:37.924+05:30  INFO 19892 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-02T19:11:38.959+05:30  INFO 19892 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02T19:11:38.970+05:30  INFO 19892 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02T19:11:39.214+05:30  WARN 19892 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02T19:11:39.881+05:30  INFO 19892 --- [main] c.junit.apitest.ApitestApplicationTests  : Started ApitestApplicationTests in 5.272 seconds (process running for 7.094)
+2022-12-02T19:11:40.412+05:30  INFO 19892 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02T19:11:40.419+05:30  INFO 19892 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02T19:11:40.449+05:30  INFO 19892 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
